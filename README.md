@@ -1,7 +1,5 @@
 # UniPro demo
 
-**One conversation, not four forms.**
-
 UniPro is a research prototype of a chatbot check-in for postpartum pain and physical recovery. Instead of a fixed questionnaire, the patient has a short conversation. When she uses a word like "moderate" or a number like "6", UniPro asks what that makes harder in her day, so the care team gets her words, her number and what they mean for her.
 
 > **Research prototype. Dummy data only. Not for real patients.**
@@ -67,4 +65,4 @@ The scripted chat reacts to what you type (areas, numbers, severity words, red f
 - `.nojekyll`: tells GitHub Pages to serve the files as they are
 
 ## Moving to live AI later
-The app calls `claude.use("sample")` for AI replies. To use live AI outside Claude, replace the scripted `sample` in `shim.js` with a call to a small server function that holds an API key (for example on Azure Static Web Apps or Vercel). Never put an API key in this repository.
+The app calls `claude.use("sample")` for AI replies. To use live AI outside Claude, replace the scripted `sample` in `shim.js` with a call to a small server function that holds an API key (for example on Azure Static Web Apps or Vercel). Please do not put an API key in this repository.
